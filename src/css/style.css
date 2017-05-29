@@ -32,41 +32,15 @@ body {
 	position: relative;
 }
 
-.logo {
-	position: absolute;
-	left: 32px;
-	top: 90px;
-}
-
-.header .mainmenu{
-	position: absolute;
-	left: 295px;
-	top: 118px;
-	margin: 0;
-	padding: 4px;
-	width: 700px;	
-	border: 10px  white;
-	border-radius: 2px;
-	background-color: white
-}
-
-.header .menu-list{
-	margin: 0; /* Обнуляем значение отступов */
-    padding: 4px; /* Значение полей */
-	width: 100%;
-	
-}
-.menu-item {
-	display: inline; /* Отображать как строчный элемент */
-    margin-right: 5px; /* Отступ слева */
-    
-    padding: 3px; /* Поля вокруг текста */
-}
-
 .lang-list{
 	position: absolute;
 	left: 20px;
 	top: 42px;
+	color: #e8d1a4;
+}
+
+.lang-list a{
+	color: #ffffff;
 }
 
 .lang-item {
@@ -77,15 +51,55 @@ body {
 	white-space: nowrap;
 }
 
-.lang-item:last-child{
+.lang-item:last-child {
 	border: 0;
 }
 
-.auth {
+.auth {	
 	position: absolute;
 	left: 812px;
 	top: 42px;
+	white-space: nowrap;
+	}
+.auth-link:last-child{
+	border: 0;
 }
+
+.auth-link {
+	border-right: 2px solid #b8ada5;
+	padding-right: 10px;
+}
+
+.auth-link.signin a{
+	color: #e8d1a4;
+}
+
+.auth-link a{
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.logo {
+	position: absolute;
+	left: 32px;
+	top: 90px;
+}
+
+
+
+
+	
+
+.menu-list {
+	position: absolute;
+	display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    
+    padding: 3px; /* Поля вокруг текста */
+	
+}
+
+
 
 
 
