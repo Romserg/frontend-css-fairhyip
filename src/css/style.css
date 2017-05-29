@@ -28,8 +28,8 @@ body {
 /* Header
 -----------------------------------------------------------------------------*/
 .header {
-	height: 100px;
-	position: absolute;
+	height: 200px;
+	position: relative;
 }
 
 .logo {
@@ -72,13 +72,22 @@ body {
 .lang-item {
 	display: inline;
 	margin-right: 5px;
+	padding-right: 10px;
+	border-right: 2px solid #b8ada5;
+	white-space: nowrap;
 }
 
-.header .auth {
+.lang-item:last-child{
+	border: 0;
+}
+
+.auth {
 	position: absolute;
 	left: 812px;
 	top: 42px;
 }
+
+
 
 
 .promo{
@@ -92,6 +101,7 @@ body {
 /* Middle
 -----------------------------------------------------------------------------*/
 .content {
+	position: relative;
 	padding: 0 0 75px;
 }
 
