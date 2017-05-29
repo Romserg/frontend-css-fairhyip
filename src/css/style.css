@@ -38,6 +38,12 @@ body {
 	top: 42px;
 	color: #e8d1a4;
 }
+.lang-list li:nth-child(3){
+	display: none;
+}
+.lang-list li:nth-child(4){
+	display: none;
+}
 
 .lang-list a{
 	color: #ffffff;
@@ -45,24 +51,28 @@ body {
 
 .lang-item {
 	display: inline;
-	margin-right: 5px;
-	padding-right: 10px;
-	border-right: 2px solid #b8ada5;
+	margin-left: 5px;
+	padding-left: 10px;
+	border-left: 2px solid #b8ada5;
 	white-space: nowrap;
 }
 
-.lang-item:last-child {
+.lang-item:first-child {
 	border: 0;
+	padding-left: 0;
+	margin-left: 0;
 }
 
 .auth {	
 	position: absolute;
-	left: 812px;
+	right: 20px;
 	top: 42px;
 	white-space: nowrap;
 	}
 .auth-link:last-child{
-	border: 0;
+	border: 0;	
+	padding-right: 0;
+	padding-left: 8px;
 }
 
 .auth-link {
@@ -70,54 +80,66 @@ body {
 	padding-right: 10px;
 }
 
-.auth-link.signin a{
+.auth-link.signin a {
 	color: #e8d1a4;
 }
 
 .auth-link a{
-	color: #ffffff;
-	padding-left: 8px;
+	color: #ffffff;	
 }
 
-.logo {
+.logo{
 	position: absolute;
 	left: 32px;
 	top: 90px;
 }
-
-
-
-
-	
-
-.menu-list {
+.mainmenu {
 	position: absolute;
-	display: inline; /* Отображать как строчный элемент */
-    margin-right: 5px; /* Отступ слева */
-    
-    padding: 3px; /* Поля вокруг текста */
-	
+	left: 290px;
+	top: 140px;
 }
 
-
-
-
-
-
-.promo{
-	background: no-repeat;
-	background-image: url(../images/bg_about.png);
-	padding-left: 246px;
-	color: #f9da5a;
+.header .menu-list{
+	border-radius: 2px;
+	border: 1px solid white;
+	background-color: white;
+	font-size: 14px;
 }
+.header .menu-item {
+display: inline-block;
+vertical-align: middle;
+padding-top: 12px;
+padding-bottom: 12px;
+padding-left: 27px;
+padding-right: 27px;
+white-space: nowrap;
 
-
+}
+.header .menu-item a {
+	color: #461500;
+}
+.header .menu-item.active{
+	background-image: url(../images/bg_menu-item-active.png);
+}
 /* Middle
 -----------------------------------------------------------------------------*/
 .content {
 	position: relative;
+	background-color: gray;
+	position: relative;
 	padding: 0 0 75px;
 }
+
+.promo{
+	position: relative;
+	background-image: url(../images/bg_about.png), url(bg_promo.png);
+	background-position: left 20px, top;
+	background-repeat: no-repeat, repeat-x;
+	color: #f9da5a;		 
+
+}
+
+
 
 h1 {
 	
@@ -144,6 +166,7 @@ h2 {
 /* Footer
 -----------------------------------------------------------------------------*/
 .footer {
+	background-color: papayawhip;
 	width: 1000px;
 	margin: -75px auto 0;
 	height: 75px;	
