@@ -78,7 +78,7 @@ main {
 
 .header .lang-item {
 	display: inline-block;
-	text-align: top;
+	text-align: center;
 	margin-left: 5px;
 	padding-left: 10px;
 	border-left: 2px solid #ffffff;
@@ -220,7 +220,7 @@ padding-right: 36px;
 
 .footermenu  .menu-item {
 	display: inline-block;
-	text-align: top;
+	text-align: center;
 	margin-left: 5px;
 	padding-left: 10px;
 	border-left: 2px solid #ffffff;
