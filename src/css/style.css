@@ -47,6 +47,9 @@ h2 {
 	color: #ead4aa;
 }
 
+main {
+	margin-bottom: 65px;
+}
 
 /* Header
 -----------------------------------------------------------------------------*/
@@ -147,7 +150,6 @@ padding: 12px 27px;
 .content {
 	width: 100%;
 	position: relative;
-	margin-bottom: 65px;
 }
 
 .content .promo{
@@ -185,15 +187,61 @@ article img {
 article  p {
 position: relative;
 padding-left: 145px;
+padding-right: 36px;
 }
 
 /* Footer
 -----------------------------------------------------------------------------*/
 .footer {
-	display: block;
-	background-color: papayawhip;
+	box-sizing: border-box;
 	width: 1000px;
-	margin: -75px auto 0;
+	margin: -50px auto 0;
 	height: 75px;	
 	position: relative;
+	padding-top: 20px;
+	border-top: 2px solid #846540;
+}
+
+ footer .copyright {
+	position: absolute;
+	bottom: 20px;
+	left: 11px;
+	display: block;
+	color: #f9da5a;
+
+}
+
+.footermenu .menu-list{
+	
+	position: absolute;
+	right: 14px;
+	bottom: 20px;
+}
+
+.footermenu  .menu-item {
+	display: inline-block;
+	text-align: top;
+	margin-left: 5px;
+	padding-left: 10px;
+	border-left: 2px solid #ffffff;
+	white-space: nowrap;
+ }
+
+ .footermenu .menu-item:first-child {
+	border: 0;
+	padding-left: 0;
+	margin-left: 0;
+ }
+ .footer a{
+	 color: white;
+ }
+
+.footer .menu-list:first-child{
+	border: 0;
+}
+
+.footer .menu-item{
+	display: inline-block;
+	vertical-align: middle;
+	
 }
