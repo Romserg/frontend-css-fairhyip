@@ -5,163 +5,185 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 	display: block;
 }
 body {
-	font-family: Verdana, Geneva, Tahoma, sans-serif, Georgia, 'Times New Roman';
+	font-family: Verdana, sans-serif, Georgia;
 	line-height: normal;
 	font-size: 11px;
 	width: 100%;
 	height: 100%;
-	background-image: url(../images/bg_body.jpg);
+	background: url(../images/bg_body.jpg) repeat;
+	color: #d7cfc8;
 }
+
+/* Common
+-----------------------------------------------------------------------------*/  
 .wrapper {
 	width: 1000px;
 	margin: 0 auto;
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
+         }
+
+h1 {
+	margin: 0 0 20px;
+	font-size: 22px;
+	font-family: Verdana, sans-serif, Georgia;
+	font-weight: 300;
+	font-style: normal;
+	position: absolute;
+	left: 145px;
+	top: 22px;
+	color: #ead4aa;
+
 }
 
-
-
-
-
-
+h2 {
+	margin: 0 0 15px;
+	font-size: 18px;
+	font-family: Verdana, sans-serif, Georgia;
+	font-weight: 300;
+	font-style: normal;
+	position: relative;
+	padding-left: 145px;
+	color: #ead4aa;
+	/*padding-left: 145px;
+	padding-bottom: 15px;
+	font-size: 18px;
+	color: #fff68d;
+	font-style: normal;*/
+}
+article p{
+	position: relative;
+	margin: 0;
+	margin-left: 145px;
+	text-align: left;
+}
 /* Header
 -----------------------------------------------------------------------------*/
 .header {
 	height: 200px;
 	position: relative;
+	width: 100%;
 }
 
-.lang-list{
-	position: absolute;
+.header .lang-list{
+	position: absolute;	
 	left: 20px;
 	top: 42px;
 	color: #e8d1a4;
 }
-.lang-list li:nth-child(3){
+.header .lang-list li:nth-child(3){
 	display: none;
 }
-.lang-list li:nth-child(4){
+.header .lang-list li:nth-child(4){
 	display: none;
 }
 
-.lang-list a{
+.header .lang-list a{
 	color: #ffffff;
 }
 
-.lang-item {
-	display: inline;
+.header .lang-item {
+	display: inline-block;
+	text-align: top;
 	margin-left: 5px;
 	padding-left: 10px;
-	border-left: 2px solid #b8ada5;
+	border-left: 2px solid #ffffff;
 	white-space: nowrap;
 }
 
-.lang-item:first-child {
+.header .lang-item:first-child {
 	border: 0;
 	padding-left: 0;
 	margin-left: 0;
 }
 
-.auth {	
+.header .auth {	
 	position: absolute;
 	right: 20px;
 	top: 42px;
 	white-space: nowrap;
 	}
-.auth-link:last-child{
+.header .auth-link:last-child{
 	border: 0;	
 	padding-right: 0;
 	padding-left: 8px;
 }
 
-.auth-link {
-	border-right: 2px solid #b8ada5;
+.header .auth-link {
+	border-right: 2px solid #ffffff;
 	padding-right: 10px;
 }
 
-.auth-link.signin a {
+.header .auth-link.signin a {
 	color: #e8d1a4;
 }
 
-.auth-link a{
+.header .auth-link a{
 	color: #ffffff;	
 }
 
-.logo{
+.header .logo{
+	display: block;
 	position: absolute;
 	left: 32px;
 	top: 90px;
 }
-.mainmenu {
+.header .mainmenu {
+	box-sizing: border-box;
 	position: absolute;
-	left: 290px;
+	right: 0;
 	top: 140px;
-}
-
-.header .menu-list{
 	border-radius: 2px;
 	border: 1px solid white;
 	background-color: white;
 	font-size: 14px;
 }
+
 .header .menu-item {
 display: inline-block;
 vertical-align: middle;
-padding-top: 12px;
-padding-bottom: 12px;
-padding-left: 27px;
-padding-right: 27px;
-white-space: nowrap;
-
+padding: 12px 27px;
 }
+
 .header .menu-item a {
 	color: #461500;
 }
 .header .menu-item.active{
-	background-image: url(../images/bg_menu-item-active.png);
+	background: url(../images/bg_menu-item-active.png);
 }
 /* Middle
 -----------------------------------------------------------------------------*/
 .content {
+	width: 100%;
 	position: relative;
-	background-color: gray;
-	position: relative;
-	padding: 0 0 75px;
+	padding: 0 0 65px;
 }
 
-.promo{
-	position: relative;
-	background-image: url(../images/bg_about.png), url(bg_promo.png);
-	background-position: left 20px, top;
-	background-repeat: no-repeat, repeat-x;
+.content .promo{
+	box-sizing: border-box;
 	color: #f9da5a;		 
-
+	height:155px;
+    width:1000px;
+    position: relative;
+    background: url(../images/bg_about.png),url(../images/bg_promo.png);  
+    background-position:55px 50%;
+    background-repeat: no-repeat, repeat;
+	border: 2px currentColor;
+	border-radius: 5px;	
+	margin-bottom: 44px;
+	padding-right: 40px;
+	padding-left: 145px;
+	padding-top: 68px;
+	padding-bottom: 30px;
 }
 
-
-
-h1 {
-	
-	padding-left: 246px;
-	margin-bottom: 18px;
-	font-family: Verdana, Geneva, Tahoma, sans-serif, Georgia, 'Times New Roman';
-	font-size: 22px;
-	color: #ead4aa;
-	font-style: normal;
+.content article img {
+	position: relative;
+	display: block;
+	top: 50%;
+	transform: translateY(-50%);
 }
-
-h2 {
-	margin-bottom: 15px;
-	font-family: Verdana, Geneva, Tahoma, sans-serif, Georgia, 'Times New Roman';
-	font-size: 18px;
-	color: #fff68d;
-	font-style: normal;
-}
-
-
-
-
 
 /* Footer
 -----------------------------------------------------------------------------*/
