@@ -141,6 +141,7 @@ padding: 12px 27px;
 
 .header .menu-item a {
 	color: #461500;
+	text-decoration: unset;
 }
 .header .menu-item.active{
 	background: url(../images/bg_menu-item-active.png);
