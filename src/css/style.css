@@ -234,6 +234,7 @@ padding-right: 36px;
  }
  .footer a{
 	 color: white;
+	 text-decoration: unset;
  }
 
 .footer .menu-list:first-child{
