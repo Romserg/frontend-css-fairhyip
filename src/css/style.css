@@ -13,7 +13,6 @@ body {
 	background: url(../images/bg_body.jpg) repeat;
 	color: #d7cfc8;
 }
-
 /* Common
 -----------------------------------------------------------------------------*/  
 .wrapper {
@@ -22,7 +21,7 @@ body {
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-         }
+}
 
 h1 {
 	margin: 0 0 20px;
@@ -34,7 +33,6 @@ h1 {
 	left: 145px;
 	top: 22px;
 	color: #ead4aa;
-
 }
 
 h2 {
@@ -96,7 +94,8 @@ main {
 	right: 20px;
 	top: 42px;
 	white-space: nowrap;
-	}
+}
+
 .header .auth-link:last-child{
 	border: 0;	
 	padding-right: 0;
@@ -122,6 +121,7 @@ main {
 	left: 32px;
 	top: 90px;
 }
+
 .header .mainmenu {
 	box-sizing: border-box;
 	position: absolute;
@@ -134,15 +134,16 @@ main {
 }
 
 .header .menu-item {
-display: inline-block;
-vertical-align: middle;
-padding: 12px 27px;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 12px 27px;
 }
 
 .header .menu-item a {
 	color: #461500;
 	text-decoration: unset;
 }
+
 .header .menu-item.active{
 	background: url(../images/bg_menu-item-active.png);
 }
@@ -157,7 +158,6 @@ padding: 12px 27px;
 	box-sizing: border-box;
 	color: #f9da5a;		 
 	height:155px;
-    width:1000px;
     position: relative;
     background: url(../images/bg_about.png),url(../images/bg_promo.png);  
     background-position:55px 50%;
@@ -167,8 +167,6 @@ padding: 12px 27px;
 	padding: 68px 40px 30px 145px;
 	margin-bottom: 44px;
 }
-
-
 
 .article {
 	box-sizing: border-box;
@@ -182,13 +180,12 @@ article img {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%)
-
 }
 
 article  p {
-position: relative;
-padding-left: 145px;
-padding-right: 36px;
+	position: relative;
+	padding-left: 145px;
+	padding-right: 36px;
 }
 
 /* Footer
@@ -209,11 +206,9 @@ padding-right: 36px;
 	left: 11px;
 	display: block;
 	color: #f9da5a;
-
 }
 
 .footermenu .menu-list{
-	
 	position: absolute;
 	right: 14px;
 	bottom: 20px;
@@ -233,7 +228,8 @@ padding-right: 36px;
 	padding-left: 0;
 	margin-left: 0;
  }
- .footer a{
+
+.footer a{
 	 color: white;
 	 text-decoration: unset;
  }
@@ -245,5 +241,4 @@ padding-right: 36px;
 .footer .menu-item{
 	display: inline-block;
 	vertical-align: middle;
-	
 }
