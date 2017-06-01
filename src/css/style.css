@@ -166,6 +166,8 @@ main {
 	border-radius: 5px;	
 	padding: 68px 40px 30px 145px;
 	margin-bottom: 44px;
+	line-height: 22px;
+	font-style: italic;
 }
 
 .article {
