@@ -141,7 +141,7 @@ main {
 
 .header .menu-item a {
 	color: #461500;
-	text-decoration: unset;
+	text-decoration: none;
 }
 
 .header .menu-item.active{
@@ -231,7 +231,7 @@ article  p {
 
 .footer a{
 	 color: white;
-	 text-decoration: unset;
+	 text-decoration: none;
  }
 
 .footer .menu-list:first-child{
