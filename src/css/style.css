@@ -42,7 +42,7 @@ h2 {
 	font-weight: 300;
 	font-style: normal;
 	padding-left: 145px;
-	color: #ead4aa;
+	color: #f9da5a;
 }
 
 main {
@@ -119,6 +119,8 @@ main {
 .header .logo{
 	display: block;
 	position: absolute;
+	height: 92px;
+	width: auto;
 	left: 32px;
 	top: 90px;
 }
@@ -131,18 +133,21 @@ main {
 	border-radius: 2px;
 	border: 1px solid white;
 	background-color: white;
-	font-size: 14px;
+	font-size: 0;
 }
 
 .header .menu-item {
 	display: inline-block;
 	vertical-align: top;
-	padding: 12px 27px;
+	padding: 0 27px;
+	font-size: 14px;
 }
 
 .header .menu-item a {
 	color: #461500;
 	text-decoration: none;
+	height: 40px;
+	line-height: 40px;
 }
 
 .header .menu-item.active{
@@ -153,6 +158,7 @@ main {
 .content {
 	width: 100%;
 	position: relative;
+	margin-bottom: 140px;
 }
 
 .content .promo{
@@ -165,8 +171,8 @@ main {
     background-repeat: no-repeat, repeat;
 	border: 2px currentColor;
 	border-radius: 5px;	
-	padding: 68px 40px 30px 145px;
-	margin-bottom: 44px;
+	padding: 65px 45px 30px 145px;
+	margin-bottom: 45px;
 	line-height: 22px;
 	font-style: italic;
 }
@@ -180,12 +186,16 @@ main {
 }
 
 article img {
+	display: block;
+	width: 100px;
+	height: auto;
 	position: absolute;
 	left: 20px;
 	top: 50%;
 	transform: translateY(-50%)
 	
 }
+
 
 article  p {
 	position: relative;
@@ -198,25 +208,32 @@ article  p {
 .footer {
 	box-sizing: border-box;
 	width: 1000px;
-	margin: -50px auto 0;
+	margin: -75px auto 0;
 	height: 75px;	
 	position: relative;
-	padding-top: 20px;
 	border-top: 2px solid #846540;
 }
 
  footer .copyright {
 	position: absolute;
+	display: block;
+	height: 47px;
+	line-height: 47px;
 	bottom: 20px;
 	left: 11px;
-	display: block;
 	color: #f9da5a;
+	font-size: 11px;
 }
 
 .footermenu .menu-list{
 	position: absolute;
 	right: 14px;
 	bottom: 20px;
+	font-size: 11px;
+	display: block;
+	height: 47px;
+	line-height: 47px;
+	
 }
 
 .footermenu  .menu-item {
@@ -224,7 +241,7 @@ article  p {
 	text-align: center;
 	margin-left: 5px;
 	padding-left: 10px;
-	border-left: 2px solid #ffffff;
+	/*border-left: 2px solid #ffffff;*/
 	white-space: nowrap;
  }
 
@@ -235,6 +252,7 @@ article  p {
  }
 
 .footer a{
+	border-left: 2px solid #ffffff;
 	 color: white;
 	 text-decoration: none;
  }
