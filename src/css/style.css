@@ -18,9 +18,7 @@ body {
 .wrapper {
 	width: 1000px;
 	margin: 0 auto;
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
+	min-height: 100%;	
 }
 
 h1 {
@@ -42,11 +40,7 @@ h2 {
 	font-weight: 300;
 	font-style: normal;
 	padding-left: 145px;
-	color: #ead4aa;
-}
-
-main {
-	margin-bottom: 65px;
+	color: #fff68d;
 }
 
 /* Header
@@ -123,7 +117,6 @@ main {
 }
 
 .header .mainmenu {
-	box-sizing: border-box;
 	position: absolute;
 	right: 0;
 	top: 140px;
@@ -144,7 +137,7 @@ main {
 	text-decoration: unset;
 }
 
-.header .menu-item.active{
+.header .menulist .active{
 	background: url(../images/bg_menu-item-active.png);
 }
 /* Middle
@@ -169,7 +162,6 @@ main {
 }
 
 .article {
-	box-sizing: border-box;
 	position: relative;
 	display: block;
 	height: auto;
@@ -177,7 +169,11 @@ main {
 }
 
 article img {
+	display: block;
+	height: auto;
+	width: 100px;	
 	position: absolute;
+	left: 20px;
 	top: 50%;
 	transform: translateY(-50%)
 }
@@ -193,10 +189,10 @@ article  p {
 .footer {
 	box-sizing: border-box;
 	width: 1000px;
-	margin: -50px auto 0;
+	margin: -75px auto 0;
 	height: 75px;	
 	position: relative;
-	padding-top: 20px;
+	padding-top: 44px;
 	border-top: 2px solid #846540;
 }
 
@@ -210,8 +206,8 @@ article  p {
 
 .footermenu .menu-list{
 	position: absolute;
-	right: 14px;
 	bottom: 20px;
+	right: 14px;
 }
 
 .footermenu  .menu-item {
