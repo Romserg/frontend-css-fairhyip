@@ -19,8 +19,6 @@ body {
 	width: 1000px;
 	margin: 0 auto;
 	min-height: 100%;
-	height: auto !important;
-	height: 100%;
 }
 
 h1 {
@@ -240,8 +238,6 @@ article  p {
 	display: inline-block;
 	text-align: center;
 	margin-left: 5px;
-	
-	/*border-left: 2px solid #ffffff;*/
 	white-space: nowrap;
  }
 
