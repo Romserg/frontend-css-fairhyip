@@ -18,7 +18,9 @@ body {
 .wrapper {
 	width: 1000px;
 	margin: 0 auto;
-	min-height: 100%;	
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
 }
 
 h1 {
@@ -40,7 +42,11 @@ h2 {
 	font-weight: 300;
 	font-style: normal;
 	padding-left: 145px;
-	color: #fff68d;
+	color: #f9da5a;
+}
+
+main {
+	margin-bottom: 65px;
 }
 
 /* Header
@@ -49,6 +55,7 @@ h2 {
 	height: 200px;
 	position: relative;
 	width: 100%;
+	margin-bottom: 20px;
 }
 
 .header .lang-list{
@@ -112,32 +119,38 @@ h2 {
 .header .logo{
 	display: block;
 	position: absolute;
+	height: 92px;
+	width: auto;
 	left: 32px;
 	top: 90px;
 }
 
 .header .mainmenu {
+	box-sizing: border-box;
 	position: absolute;
 	right: 0;
 	top: 140px;
 	border-radius: 2px;
 	border: 1px solid white;
 	background-color: white;
-	font-size: 14px;
+	font-size: 0;
 }
 
 .header .menu-item {
 	display: inline-block;
-	vertical-align: middle;
-	padding: 12px 27px;
+	vertical-align: top;
+	padding: 0 27px;
+	font-size: 14px;
 }
 
 .header .menu-item a {
 	color: #461500;
-	text-decoration: unset;
+	text-decoration: none;
+	height: 40px;
+	line-height: 40px;
 }
 
-.header .menulist .active{
+.header .menu-item.active{
 	background: url(../images/bg_menu-item-active.png);
 }
 /* Middle
@@ -145,6 +158,7 @@ h2 {
 .content {
 	width: 100%;
 	position: relative;
+	margin-bottom: 140px;
 }
 
 .content .promo{
@@ -157,11 +171,14 @@ h2 {
     background-repeat: no-repeat, repeat;
 	border: 2px currentColor;
 	border-radius: 5px;	
-	padding: 68px 40px 30px 145px;
-	margin-bottom: 44px;
+	padding: 65px 45px 30px 145px;
+	margin-bottom: 45px;
+	line-height: 22px;
+	font-style: italic;
 }
 
 .article {
+	box-sizing: border-box;
 	position: relative;
 	display: block;
 	height: auto;
@@ -170,13 +187,15 @@ h2 {
 
 article img {
 	display: block;
+	width: 100px;
 	height: auto;
-	width: 100px;	
 	position: absolute;
 	left: 20px;
 	top: 50%;
 	transform: translateY(-50%)
+	
 }
+
 
 article  p {
 	position: relative;
@@ -192,22 +211,29 @@ article  p {
 	margin: -75px auto 0;
 	height: 75px;	
 	position: relative;
-	padding-top: 44px;
 	border-top: 2px solid #846540;
 }
 
  footer .copyright {
 	position: absolute;
+	display: block;
+	height: 47px;
+	line-height: 47px;
 	bottom: 20px;
 	left: 11px;
-	display: block;
 	color: #f9da5a;
+	font-size: 11px;
 }
 
 .footermenu .menu-list{
 	position: absolute;
-	bottom: 20px;
 	right: 14px;
+	bottom: 20px;
+	font-size: 11px;
+	display: block;
+	height: 47px;
+	line-height: 47px;
+	
 }
 
 .footermenu  .menu-item {
@@ -215,7 +241,7 @@ article  p {
 	text-align: center;
 	margin-left: 5px;
 	padding-left: 10px;
-	border-left: 2px solid #ffffff;
+	/*border-left: 2px solid #ffffff;*/
 	white-space: nowrap;
  }
 
@@ -226,8 +252,9 @@ article  p {
  }
 
 .footer a{
+	border-left: 2px solid #ffffff;
 	 color: white;
-	 text-decoration: unset;
+	 text-decoration: none;
  }
 
 .footer .menu-list:first-child{
