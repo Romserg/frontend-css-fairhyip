@@ -240,7 +240,7 @@ article  p {
 	display: inline-block;
 	text-align: center;
 	margin-left: 5px;
-	padding-left: 10px;
+	
 	/*border-left: 2px solid #ffffff;*/
 	white-space: nowrap;
  }
@@ -253,6 +253,7 @@ article  p {
 
 .footer a{
 	border-left: 2px solid #ffffff;
+	padding-left: 10px;
 	 color: white;
 	 text-decoration: none;
  }
