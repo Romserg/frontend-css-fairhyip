@@ -239,9 +239,10 @@ article  p {
 	text-align: center;
 	margin-left: 5px;
 	white-space: nowrap;
+	
  }
 
- .footermenu .menu-item:first-child {
+ .footermenu .menu-item:first-child a {
 	border: 0;
 	padding-left: 0;
 	margin-left: 0;
@@ -254,9 +255,6 @@ article  p {
 	 text-decoration: none;
  }
 
-.footer .menu-list:first-child{
-	border: 0;
-}
 
 .footer .menu-item{
 	display: inline-block;
