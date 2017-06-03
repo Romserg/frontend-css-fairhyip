@@ -50,8 +50,8 @@ main {
 /* Header
 -----------------------------------------------------------------------------*/
 .header {
-	height: 200px;
 	position: relative;
+	height: 200px;
 	width: 100%;
 	margin-bottom: 20px;
 }
@@ -211,54 +211,49 @@ article  p {
 	margin: -75px auto 0;
 	height: 75px;	
 	position: relative;
-	border-top: 2px solid #846540;
+	border-top: 1px solid #846540;
 }
 
  footer .copyright {
 	position: absolute;
 	display: block;
-	height: 47px;
-	line-height: 47px;
 	bottom: 20px;
 	left: 11px;
 	color: #f9da5a;
-	font-size: 11px;
+	line-height: 47px;
+	height: 47px;
 }
 
 .footermenu .menu-list{
 	position: absolute;
 	right: 14px;
 	bottom: 20px;
-	font-size: 11px;
-	display: block;
-	height: 47px;
-	line-height: 47px;
+	display: block;	
 	
 }
 
 .footermenu  .menu-item {
 	display: inline-block;
-	text-align: center;
+	vertical-align: top;
 	margin-left: 5px;
-	white-space: nowrap;
+	white-space: nowrap;	
+	border-left: 2px solid #ffffff;
+	padding-left: 10px;
 	
  }
 
- .footermenu .menu-item:first-child a {
+.footermenu .menu-item:first-child {
 	border: 0;
 	padding-left: 0;
 	margin-left: 0;
  }
 
+.footer li{
+	
+}
 .footer a{
-	border-left: 2px solid #ffffff;
-	padding-left: 10px;
-	 color: white;
-	 text-decoration: none;
+	color: white;
+	text-decoration: underline;
+	
  }
 
-
-.footer .menu-item{
-	display: inline-block;
-	vertical-align: middle;
-}
