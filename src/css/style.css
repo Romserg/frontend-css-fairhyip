@@ -128,7 +128,7 @@ main {
 	position: absolute;
 	right: 0;
 	top: 140px;
-	border-radius: 2px;
+	border-radius: 5px;
 	border: 1px solid white;
 	background-color: white;
 	font-size: 0;
@@ -160,6 +160,8 @@ main {
 }
 
 .content .promo{
+	font-family: sans-serif;
+	font-size: 14px;
 	box-sizing: border-box;
 	color: #f9da5a;		 
 	height:155px;
