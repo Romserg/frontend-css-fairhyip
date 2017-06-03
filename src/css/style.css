@@ -24,7 +24,7 @@ body {
 h1 {
 	margin: 0 0 20px;
 	font-size: 22px;
-	font-family: Verdana, sans-serif, Georgia;
+	font-family: sans-serif, Verdana, Georgia;
 	font-weight: 300;
 	font-style: normal;
 	position: absolute;
@@ -36,7 +36,7 @@ h1 {
 h2 {
 	margin: 0 0 15px;
 	font-size: 18px;
-	font-family: Verdana, sans-serif, Georgia;
+	font-family: sans-serif, Georgia, Verdana;
 	font-weight: 300;
 	font-style: normal;
 	padding-left: 145px;
