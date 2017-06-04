@@ -56,6 +56,12 @@ main {
 	margin-bottom: 20px;
 }
 
+.header .lang-list li:before {
+    content: "";
+    border: 1px solid white;
+    margin-right: 10px;
+}
+
 .header .lang-list{
 	position: absolute;	
 	left: 20px;
@@ -77,12 +83,12 @@ main {
 	display: inline-block;
 	text-align: center;
 	margin-left: 5px;
-	padding-left: 10px;
-	border-left: 2px solid #ffffff;
 	white-space: nowrap;
+	line-height: 47px;
+	height: 47px;
 }
 
-.header .lang-item:first-child {
+.header .lang-item:first-child::before {
 	border: 0;
 	padding-left: 0;
 	margin-left: 0;
@@ -93,6 +99,8 @@ main {
 	right: 20px;
 	top: 42px;
 	white-space: nowrap;
+	line-height: 47px;
+	height: 47px;
 }
 
 .header .auth-link:last-child{
@@ -229,27 +237,32 @@ article  p {
 	right: 14px;
 	bottom: 20px;
 	display: block;	
-	
 }
 
 .footermenu  .menu-item {
 	display: inline-block;
 	vertical-align: top;
 	margin-left: 5px;
-	white-space: nowrap;	
-	border-left: 2px solid #ffffff;
-	padding-left: 10px;
+	white-space: nowrap;
+	line-height: 47px;
+	height: 47px;	
 	
  }
 
-.footermenu .menu-item:first-child {
+.footermenu .menu-item:first-child::before {
 	border: 0;
 	padding-left: 0;
 	margin-left: 0;
  }
+
 .footer a{
 	color: white;
-	text-decoration: underline;
-	
+	text-decoration: none;	
  }
+ 
+.footer li.menu-item:before {
+    content: "";
+    border: 1px solid white;
+    margin-right: 10px;
+}
 
